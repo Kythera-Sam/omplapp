@@ -41,6 +41,7 @@
             cmake
             pkg-config
             gcc
+            clang
 
             # Core OMPL dependencies with Python-enabled boost
             boostWithPython
@@ -79,6 +80,8 @@
             yaml-cpp
             doxygen
             graphviz
+            pypy3
+            flann
 
             # Useful development tools
             gdb
