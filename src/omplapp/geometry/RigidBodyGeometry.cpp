@@ -112,6 +112,7 @@ bool ompl::app::RigidBodyGeometry::addEnvironmentMesh(const std::string &env)
     else
     {
         OMPL_ERROR("Unable to load environment scene: %s", env.c_str());
+        OMPL_ERROR("Importer: %s", importerEnv_[p]->GetErrorString());
         importerEnv_.resize(p);
     }
 
